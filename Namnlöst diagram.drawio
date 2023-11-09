@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T10:20:15.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vW-yaNDvoVHsl9kxW3_r" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T10:22:36.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xP0RfZF22xWMVP5PUDlg" version="22.1.0" type="github">
   <diagram name="Sida-1" id="sMpSKWyNa3JY2Kg1YHN2">
     <mxGraphModel dx="3350" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
             <mxPoint x="570" y="929.4708615240102" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-77" value="Current problem:&lt;br&gt;&lt;br&gt;1. Alertmanagerconfig needs Jiraalert Service to create the endpoint where to forward alerts&lt;br&gt;&lt;br&gt;2. Jiraalert configmap needs to watch Jiraalert CRD in order to update JiraAlert Configmap with the names of the JiraAlert CRDs (receiver)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-77" value="Current problem:&lt;br&gt;&lt;br&gt;1. Alertmanagerconfig needs Jiraalert Service to create the endpoint where to forward alerts&lt;br&gt;&lt;br&gt;2. Jiraalert configmap needs to watch Jiraalert CRD in order to update JiraAlert Configmap with the names of the JiraAlert CRDs (receiver)&lt;br&gt;&lt;br&gt;Is there some way to make JiraalertRoute not dependent on JiraAlert? (finding the endpoint in another way service)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="1080" width="380" height="230" as="geometry" />
         </mxCell>
       </root>
