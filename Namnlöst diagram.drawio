@@ -1,126 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T10:25:08.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3dqDHDwztRsCW12A5Kyv" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T12:55:08.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dXZfPc3EbuLG0fDw7EPG" version="22.1.0" type="github">
   <diagram name="Sida-1" id="sMpSKWyNa3JY2Kg1YHN2">
-    <mxGraphModel dx="3350" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2483" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-38" value="Uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-4" target="YuaA5Zfme7-IQ_LHkHmJ-30">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-38" value="Uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-4" target="YuaA5Zfme7-IQ_LHkHmJ-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-4" target="YuaA5Zfme7-IQ_LHkHmJ-59">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-4" target="YuaA5Zfme7-IQ_LHkHmJ-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-4" value="JiraAlert&lt;br&gt;Instance&lt;br&gt;(User-workload)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-4" value="JiraAlert&lt;br&gt;Instance&lt;br&gt;(User-workload)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-459.99999999999994" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-11" value="Namespace: A-test" style="swimlane;startSize=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-730" y="110" width="120" height="30" as="geometry">
-            <mxRectangle x="-730" y="110" width="528.46" height="360" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-12" value="AlertRule&lt;br&gt;(User)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YuaA5Zfme7-IQ_LHkHmJ-11">
-          <mxGeometry x="15.576923076923078" y="30" width="197.30769230769235" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-1" value="JiraAlertConfig&lt;br&gt;(Template)&lt;br&gt;Project: A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1230" y="710" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-76" value="Created by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-30" target="YuaA5Zfme7-IQ_LHkHmJ-19">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-76" value="Created by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-30" target="YuaA5Zfme7-IQ_LHkHmJ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-30" value="JiraAlert&lt;br&gt;ConfigMap&lt;br&gt;(singleton)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-30" value="JiraAlert&lt;br&gt;ConfigMap&lt;br&gt;(singleton)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-460" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-30" target="YuaA5Zfme7-IQ_LHkHmJ-30">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-30" target="YuaA5Zfme7-IQ_LHkHmJ-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-41" value="Watches Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-39" target="YuaA5Zfme7-IQ_LHkHmJ-19">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-41" value="Created by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VBRPU7w31r6i5wefgajN-1" target="YuaA5Zfme7-IQ_LHkHmJ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-39" target="YuaA5Zfme7-IQ_LHkHmJ-40">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-44" value="Forward alerts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-40" target="YuaA5Zfme7-IQ_LHkHmJ-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="460" />
+              <mxPoint x="-400" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-39" value="Prometheus operator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-44" value="Forward alerts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-40" target="YuaA5Zfme7-IQ_LHkHmJ-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-40" value="Alertmanager&lt;br&gt;Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-47" value="JiraAlert&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-47" value="JiraAlert&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-459.99999999999994" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-50" value="Forward alerts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-47" target="YuaA5Zfme7-IQ_LHkHmJ-4">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-50" value="Forward alerts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-47" target="YuaA5Zfme7-IQ_LHkHmJ-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-390" y="470" as="sourcePoint" />
             <mxPoint x="-390" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-57" target="YuaA5Zfme7-IQ_LHkHmJ-47">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-57" target="YuaA5Zfme7-IQ_LHkHmJ-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="888.2394366197182" as="sourcePoint" />
             <mxPoint x="-99" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-59" value="Jira" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-59" value="Jira" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-61" target="YuaA5Zfme7-IQ_LHkHmJ-40">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-61" target="YuaA5Zfme7-IQ_LHkHmJ-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-61" value="Alert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-61" value="Alert" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-64" value="JiraAlertController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-64" value="JiraAlertController" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-413" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-65" value="JiraalertRouteController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-65" value="JiraalertRouteController" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="1270" width="147.21" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.346;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-64" target="YuaA5Zfme7-IQ_LHkHmJ-70">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.346;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-64" target="YuaA5Zfme7-IQ_LHkHmJ-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-6" y="1239" as="sourcePoint" />
             <mxPoint x="-99" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-70" value="JIiraalert&#xa;CRD" style="swimlane;startSize=0;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-70" value="JIiraalert&#xa;CRD" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="550" width="220" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-71" value="Watches" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-72" target="YuaA5Zfme7-IQ_LHkHmJ-64">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-240" y="1286.5610579896293" as="sourcePoint" />
-            <mxPoint x="-330" y="1040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-72" value="JiraalertRoute&#xa;CRD" style="swimlane;startSize=0;" vertex="1" parent="1">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-72" value="JiraalertRoute&#xa;CRD" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="550" width="220" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-19" value="AlertmanagerConfig&lt;br&gt;(User workload)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YuaA5Zfme7-IQ_LHkHmJ-72">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-19" value="AlertmanagerConfig&lt;br&gt;(User workload)" style="rounded=0;whiteSpace=wrap;html=1;" parent="YuaA5Zfme7-IQ_LHkHmJ-72" vertex="1">
           <mxGeometry x="50.00000000000002" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-73" value="Watches" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-47" target="YuaA5Zfme7-IQ_LHkHmJ-65">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-57" value="For AlertmanagerConfig to be created. It needs JiraAlertService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="YuaA5Zfme7-IQ_LHkHmJ-72" vertex="1">
+          <mxGeometry x="40" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;" parent="YuaA5Zfme7-IQ_LHkHmJ-72" source="YuaA5Zfme7-IQ_LHkHmJ-57" target="YuaA5Zfme7-IQ_LHkHmJ-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-156" y="1090" as="sourcePoint" />
-            <mxPoint x="-317" y="1280" as="targetPoint" />
+            <mxPoint x="820" y="379.47086152401016" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-65" target="YuaA5Zfme7-IQ_LHkHmJ-72">
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-65" target="YuaA5Zfme7-IQ_LHkHmJ-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-355" y="1280" as="sourcePoint" />
             <mxPoint x="-414" y="1133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-57" value="For AlertmanagerConfig to be created. It needs JiraAlertService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="585" width="180" height="90" as="geometry" />
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-77" value="Current problem:&lt;br&gt;&lt;br&gt;1. Alertmanagerconfig needs Jiraalert Service to create the endpoint where to forward alerts&lt;br&gt;&lt;br&gt;2. Jiraalert configmap needs to watch Jiraalert CRD in order to update JiraAlert Configmap with the names of the JiraAlert CRDs (receiver)&lt;br&gt;&lt;br&gt;Is there some way to make JiraalertRoute not dependent on JiraAlert? (finding the endpoint in another way service)&lt;br&gt;&lt;br&gt;Or maybe it can work.&amp;nbsp;&lt;br&gt;In JiraalertRoute only check for generation change (the spec has changed). Then it shouldnt be a infinite reconcile loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1180" width="380" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="YuaA5Zfme7-IQ_LHkHmJ-57" target="YuaA5Zfme7-IQ_LHkHmJ-19">
+        <mxCell id="VBRPU7w31r6i5wefgajN-4" value="Prometheus-operator" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VBRPU7w31r6i5wefgajN-1" value="Alertmanager&lt;br&gt;Config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBRPU7w31r6i5wefgajN-4">
+          <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-40" value="Alertmanager&lt;br&gt;Instance" style="rounded=0;whiteSpace=wrap;html=1;" parent="VBRPU7w31r6i5wefgajN-4" vertex="1">
+          <mxGeometry x="50" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBRPU7w31r6i5wefgajN-6" value="Uses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VBRPU7w31r6i5wefgajN-4" source="YuaA5Zfme7-IQ_LHkHmJ-40" target="VBRPU7w31r6i5wefgajN-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="929.4708615240102" as="sourcePoint" />
+            <mxPoint x="-530" y="380" as="sourcePoint" />
+            <mxPoint x="-530" y="460" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="YuaA5Zfme7-IQ_LHkHmJ-77" value="Current problem:&lt;br&gt;&lt;br&gt;1. Alertmanagerconfig needs Jiraalert Service to create the endpoint where to forward alerts&lt;br&gt;&lt;br&gt;2. Jiraalert configmap needs to watch Jiraalert CRD in order to update JiraAlert Configmap with the names of the JiraAlert CRDs (receiver)&lt;br&gt;&lt;br&gt;Is there some way to make JiraalertRoute not dependent on JiraAlert? (finding the endpoint in another way service)&lt;br&gt;&lt;br&gt;Or maybe it can work.&amp;nbsp;&lt;br&gt;In JiraalertRoute only check for generation change (the spec has changed). Then it shouldnt be a infinite reconcile loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1080" width="380" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
